@@ -1,0 +1,52 @@
+import = ["/home/tonofclay/.config/alacritty/catppuccin-macchiato.toml"]
+
+[env]
+term = "xterm-256color"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+size = 8 
+
+[font.bold]
+family = "DejaVuSansM Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "DejaVuSansM Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family ="DejaVuSansM Nerd Font" 
+style = "Italic"
+
+[font.normal]
+family ="DejaVuSansM Nerd Font" 
+style = "Bold"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/bash"
+
+[window]
+opacity = 0.8 
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+# [window.padding]
+# x = 10
+# y = 10
